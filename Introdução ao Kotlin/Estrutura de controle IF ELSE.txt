@@ -1,0 +1,13 @@
+fun main() {
+    val a = 8
+    val b = 8
+    val valMaior:Int
+    val valMenor:Int
+    
+    valMaior = if(a > b) a else if (b > a) b else b
+    println(valMaior)
+    
+   	valMenor = if (a < b) a else if (b < a) b else b
+    println(valMenor)
+    
+}

@@ -1,0 +1,7 @@
+fun main() {
+   val calcular = funcao(1,2,3)
+   print(calcular(4))
+    
+}
+
+fun funcao (a:Int, b:Int, c:Int):(Int) -> Int = {x: Int -> a*x + (b + c)}
